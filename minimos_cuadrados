@@ -1,0 +1,10 @@
+clear all
+clc
+v=[0 0.2 0.9];
+F=[0 1600 7300]';
+M=v';
+A =inv(M'*M)*M'*F
+k=13906.26;
+c=A-(k/2)
+c_mejorado=1803;
+k_mejorado=(A-c_mejorado)*2
