@@ -1,0 +1,6 @@
+v = 0.2:0.1:0.9;
+
+Fmedia = v*(c_mejorado + k_mejorado/2);
+Edis_ensayo = c_mejorado*v.^2;
+
+plot(Fmedia,Edis_ensayo,'bo-')
